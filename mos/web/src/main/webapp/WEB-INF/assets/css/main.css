@@ -1,0 +1,341 @@
+@charset "utf-8";
+body {
+    font-family: "Microsoft YaHei",΢���ź�,"MicrosoftJhengHei",����ϸ��,STHeiti,MingLiu;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
+}
+
+body {
+    background-color: #F1F1F1;
+    min-width: 1200px;
+}
+
+ul {
+    padding-left: 0;
+}
+ul li, nav li {
+    list-style: none outside none;
+}
+
+fieldset, img {
+    border: 0 none;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus, a {
+    color: #999;
+}
+
+.container {
+    width: 1200px;
+    padding: 0;
+}
+.container-padding {
+    padding-top: 5px;
+}
+.sj-vcg {
+    background-color: #F1F1F1;
+    height: 25px!important;
+}
+
+.doj-header {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.doj-nav {
+    width: 100%;
+    height: 95px;
+    background: url("../image/navbg.jpg") no-repeat left top;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+.font-size-14 {
+    font-size: 14px;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-24 {
+    font-size: 24px;
+}
+.font-color-1d {
+    color: #1d1d21;
+}
+.font-color-43 {
+    color: #434343;
+}
+.font-color-67 {
+    color: #676767;
+}
+
+.doj-mt20 {
+    margin-top: 20px;
+}
+.doj-mt30 {
+    margin-top: 30px;
+}
+
+.doj-nav ul li {
+    float: left;
+    padding: 0 10px;
+    margin-right: 15px;
+    height: 95px;
+}
+.doj-nav ul li.current a, .doj-nav ul li a:hover {
+    color: #e7d13a;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAnAgMAAACNq6V/AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJUExURQAAAP/mPP/mPOMdK2oAAAADdFJOUwDM8CCEroAAAAA5SURBVCjPY8haBQQrGDDB0lAgCMEiMYEBBxiVoJ0EKy4JNrpIBOCSYBiVoKuEKChXRmGR0ALl45UAK00XUyIeomYAAAAASUVORK5CYII=) no-repeat left top;
+}
+.doj-nav ul li a {
+    color: #fff;
+    display: inline-block;
+    width: 96px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    margin-top: 28px;
+}
+.doj-nav a {
+    text-decoration: none;
+}
+
+.doj-nav .doj-cansai {
+    display: inline-block;
+    width: 180px;
+    height: 58px;
+    background: #f8df3b;
+    position: absolute;
+    right: 0;
+    line-height: 58px;
+    color: #1d1d21;
+    font-size: 30px;
+    text-align: center;
+    top: 50%;
+    margin-top: -29px;
+}
+.doj-nav .doj-cansai:hover { 
+    color: #fff;
+    background: #cc0001;
+}
+
+.full {
+    width: 100%;
+    padding: 30px 0;
+}
+.full-bg-w {
+    background: #fff;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.doj-ds-tit {
+    font-weight: normal;
+    height: 32px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAgBAMAAABulgz5AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAVUExURQAAAB0dIR0dIR0dIR0dIR0dIR0dIWiBCFgAAAAGdFJOUwDuOTRmnwQUxrwAAABFSURBVCjPYxBEAgxgIJaGAFARJyUYUIaKGDCgATEFmogYCqCLqI0kEUEDdBE0QC0RM4gIMzyildwgImxIqQEiwoiUYgQA1yEW9QWgmpMAAAAASUVORK5CYII=) no-repeat left top;
+    padding-left: 45px;
+}
+.doj-info-img {
+    width: 515px;
+    height: 264px;
+    overflow: hidden;
+}
+.doj-jieshao-text {
+    margin-left: 535px;
+    padding-right: 20px;
+}
+
+.doj-jieshao-infos {
+    line-height: 24px;
+}
+
+.doj-dongtai {
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.doj-zhuanjia ul li {
+    float: left;
+    width: 240px;
+    overflow: hidden;
+    text-align: center;
+}
+.doj-zj-img img {
+    width: 170px;
+    height: 170px;
+}
+.doj-zj-name {
+    padding: 15px 0;
+}
+.doj-zj-infos {
+    padding: 0 60px;
+    line-height: 18px;
+}
+.doj-ds-time {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAbAQMAAABY2A0oAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURfr6+vX19e0in98AAAB+SURBVAjXYzj+4R8Dw+EPdQwMDUvCGBhq+JkPMNTIN4KI/gMMdfbHDzCwOHY4MLR/qGBgaH5QA1T8AKijHaTtgvoEBoYyD8YGhjr59gNQwh5IsBl3HGBgfGDDwND4AaijGaT4/Ic/DAwM6m5AO6KBdtTxN4Ps6D7A8C++/QAAZ8MyVHt3OQ8AAAAASUVORK5CYII=) repeat left top;
+}
+.doj-dstime {
+    text-align: center;
+}
+.doj-jxset ul li:first-child {
+    margin-left: 0;
+}
+.doj-jxset ul li {
+    float: left;
+    width: 290px;
+    text-align: center;
+    margin: 0 0 0 13px;
+}
+.doj-jiangx-img {
+    width: 290px;
+    height: 206px;
+    overflow: hidden;
+}
+.doj-jpname {
+    color: #484848;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#ft {
+    background: none repeat scroll 0 0 #1d1d20;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    position: relative;
+    width: 100%;
+}
+#ft .ccright {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 10px;
+}
+footer {
+    background: #1d1d20;
+    font-size: 13px;
+}
+.ccright p {
+    color: #fff;
+}
+.c-0 {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.doj-introduction, .doj-organization {
+    padding: 30px 0;
+    border-bottom: 1px solid #ebebeb;
+    color: #636363;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+.doj-introduction p {
+    text-indent: 2em;
+}
+.doj-introduction span {
+    color: #b2b1b1;
+}
+.doj-bordern {
+    border: none!important;
+}
+.doj-organization ul li {
+    padding-right: 20px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.masonry-box {
+    clear: both;
+    width: auto;
+}
+.thumbnail {
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+.bbox {
+    margin: 0 20px 20px 0;
+    width: 380px;
+    float: left;
+}
+
+
+.thumbnail a.piece {
+    color: #E5E8E8;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: url("../image/loaded.gif") no-repeat center center #F7F7F7;
+    height: 100%;
+}
+.masonry-box .list-max-height-680 {
+    max-height: 680px;
+    _height: 680px;
+    overflow: hidden;
+}
+.thumbnail a.piece .hover-box {
+    display: none;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background: none repeat scroll 0 0 rgba(0,0,0,0.2);
+    -pie-background: rgba(0,0,0,0.2);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#20000000,endColorstr=#20000000);
+}
+:root .thumbnail.bbox .list-group-item.caption {
+    margin-bottom: -6px;
+}
+
+.thumbnail .caption {
+    padding: 10px;
+    margin-top: -1px;
+    border-top: medium none;
+}
+.author-info {
+line-height: 30px;
+}
+.thumbnail .list-group-item:last-child {
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+border-bottom: 2px solid #D8D8D8;
+background-color: #fafafa;
+}
+.stat-count {
+color: #999;
+}
+.icon-sj-preview {
+background: url("../image/work_tool_001.png") no-repeat -339px 3px;
+}
+.icon-sj-collect {
+background: url("../image/work_tool_001.png") no-repeat -305px -23px;
+}
+.icon-label {
+width: 16px;
+height: 15px;
+display: block;
+display: inline-block;
+vertical-align: middle;
+margin: -2px 2px 0 10px;
+}

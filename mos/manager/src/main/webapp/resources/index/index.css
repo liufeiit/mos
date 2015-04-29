@@ -1,0 +1,20 @@
+.title {
+    margin-top: 100px;
+    text-align: center;
+}
+.login {
+    width: 50%;
+    margin: 50px auto;
+}
+#signIn {
+    width: 100%;
+}
+.error-message {
+    color: #a94442;
+}
+.logo {
+    margin: 0 auto;
+    background-image: url('../images/logo_invite.png');
+    width: 72px;
+    height: 72px;
+}

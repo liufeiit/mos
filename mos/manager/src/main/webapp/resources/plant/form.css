@@ -1,0 +1,74 @@
+.col-image {
+    width: 200px;
+}
+
+.image-note {
+    font-size: 12px;
+    color: #666;
+}
+
+.image-group {
+    position: relative;
+    width: 112px;
+    height: 112px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.image-group .default-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    display: none;
+    font-size: 40px;
+}
+
+.image-group.default-preview .image-delete, .image-group.default-preview .preview-image
+    {
+    display: none;
+}
+
+.image-group.default-preview .default-image {
+    display: block;
+}
+
+.preview-image {
+    width: 100px;
+    height: 100px;
+}
+
+.image-group .image-delete {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    height: 18px;
+    width: 18px;
+    background: url(../images/delete.png) center no-repeat;
+    cursor: pointer;
+}
+
+.upload-container {
+    position: relative;
+}
+
+.upload-container .uploadify-queue {
+    position: absolute;
+    left: 130px;
+    top: 0;
+}
+
+.currency-row {
+    margin: 0 0 10px;
+}
+
+.panorama-image-group {
+    width: auto;
+    height: auto;
+    max-width: 600px;
+}
+
+.panorama-image-group .preview-image {
+    width: auto;
+    height: auto;
+}
