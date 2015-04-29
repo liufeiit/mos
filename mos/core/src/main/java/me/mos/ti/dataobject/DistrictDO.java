@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * 市
+ * 地区
  * 
  * @author 刘飞 E-mail:liufei_it@126.com
  * @version 1.0.0
