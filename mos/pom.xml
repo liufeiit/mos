@@ -27,8 +27,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>me.ocs.commons</groupId>
-			<artifactId>ocs-commons</artifactId>
+			<groupId>me.ocs.comm</groupId>
+			<artifactId>ocs-comm</artifactId>
 			<version>1.0.0-RELEASE</version>
 		</dependency>
 		<dependency>
