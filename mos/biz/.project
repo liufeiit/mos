@@ -4,6 +4,10 @@
   <comment>MOS BIZ. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
   <projects>
     <project>mos-core</project>
+    <project>ocs-comm</project>
+    <project>ocs-oauth</project>
+    <project>ocs-oss</project>
+    <project>ocs-apns</project>
   </projects>
   <buildSpec>
     <buildCommand>
